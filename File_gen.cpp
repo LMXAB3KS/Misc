@@ -8,7 +8,7 @@ int main(void) { //entry point
     const int number_of_files = 1; //changing the number will generate more files. Change at your own risk.
     for (int i = 1; i <= number_of_files; i++) { //loop that generates files until i is less than or equal to number_of_files
         std::ostringstream file1;
-        file1 << "Hello_World1" << i << ".txt"; //Hello_world is the file name and .txt is the extention. change as you want
+        file1 << "file_name" << i << ".txt"; //Hello_world is the file name and .txt is the extention. change as you want
         std::ofstream outputFile(file1.str());
         if (outputFile.is_open()) { 
             outputFile << "Anything you want goes here"; //you can remove this entirely and replace w/custom line
