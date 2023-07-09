@@ -4,7 +4,7 @@
 #include <fstream> //needed for reading writing or creating a file
 #include <sstream> //to work with string for writing in file 
 
-void main() { //entry point
+int main(void) { //entry point
     const int number_of_files = 1; //changing the number will generate more files. Change at your own risk.
     for (int i = 1; i <= number_of_files; i++) { //loop that generates files until i is less than or equal to number_of_files
         std::ostringstream file1;
