@@ -1,3 +1,4 @@
+// WARNING: ONLY EDIT IF YOU KNOW WHAT YOU ARE DOING. I TAKE NO RESPONSIBILITY IF YOU RUN OR EDIT THIS ON YOUR OWN OR SOMEONE ELSES COMPUTER    
 // C++ program.
 #include <iostream> //for input output functions
 #include <fstream> //needed for reading writing or creating a file
